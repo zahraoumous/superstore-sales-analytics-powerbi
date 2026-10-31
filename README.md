@@ -2,7 +2,9 @@
 
 **Power BI · DAX · Power Query · Data Modeling · Business Analytics**
 
-[Dashboard walkthrough](Superstore.mp4) · [Sales overview](Overview.png) · [Customer analysis](Customers.png) · [What-If simulation](What%20if.png)
+## Dashboard Demo
+
+[▶ Watch the Superstore Dashboard Demo](Superstore.mp4) · [Sales overview](Overview.png) · [Customer analysis](Customers.png) · [What-If simulation](What%20if.png)
 
 ## Business Challenge
 
@@ -73,7 +75,9 @@ The dashboard supports sensitivity analysis using adjustable price, quantity and
 
 ## Project Demo
 
-[Watch the Superstore Power BI walkthrough](Superstore.mp4)
+## Dashboard Demo
+
+[▶ Watch the Superstore Dashboard Demo](Superstore.mp4)
 
 > The Power BI `.pbix` file is intentionally not shared. This repository presents the dashboard, analysis and demonstration only.
 
