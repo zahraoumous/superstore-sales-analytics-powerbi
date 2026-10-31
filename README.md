@@ -77,7 +77,15 @@ The dashboard supports sensitivity analysis using adjustable price, quantity and
 
 ## Dashboard Demo
 
-[▶ Watch the Superstore Dashboard Demo](Superstore.mp4)
+
+## 🎥 Dashboard Demo
+
+Click on the dashboard preview below to watch the Power BI walkthrough.
+
+[![Watch Superstore Dashboard Demo](Overview.png)](https://youtu.be/w_-iU8heaJA)
+
+**[▶ Watch the full dashboard demonstration on YouTube](https://youtu.be/w_-iU8heaJA)**
+
 
 > The Power BI `.pbix` file is intentionally not shared. This repository presents the dashboard, analysis and demonstration only.
 
