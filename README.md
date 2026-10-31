@@ -1,65 +1,69 @@
-Superstore Sales & Profitability Analytics
-Power BI | DAX | Power Query | Data Modeling | What-If Analysis
+Superstore | Sales & Profitability Analysis
+Power BI · DAX · Power Query · Data Modeling · Business Analytics
 
-An interactive business intelligence portfolio project for exploring sales performance, profitability, customer segments, and pricing scenarios. The Power BI .pbix source file is not publicly shared.
-Business Objective
-Help business stakeholders answer four questions:
-- How are sales, profit, orders, and margins performing?
-- Which regions and segments contribute most to revenue and profitability?
-- Where should management investigate underperformance?
-- How might changes in price, quantity, and discounts affect financial outcomes under stated assumptions?
-Dashboard Preview
-Sales Overview
+[Dashboard walkthrough](Superstore.mp4) · [Sales overview](Overview.png) · [Customer analysis](Customers.png) · [What-If simulation](What%20if.png)
+Business challenge
+Sales growth does not always mean stronger profitability. This project explores where revenue and profit come from, which regions need attention, and how commercial decisions might change financial outcomes.
 
-Customer Analytics
-
-What-If Scenario
-
-[Watch the dashboard demonstration](Superstore.mp4)
-Key Performance Indicators
-KPI	Displayed value
-Total Sales	$2.3M
-Total Profit	$286.4K
-Profit Margin	12.5%
-Total Orders	5,009
-Average Order Value	$458.6
-Average Discount	15.6%
+The objective is to turn transactional sales data into clear, decision-oriented insights for business stakeholders.
+Executive snapshot
+KPI	Dashboard result
+Total sales	$2.3M
+Total profit	$286.4K
+Profit margin	12.5%
+Orders	5,009
+Average order value	$458.6
+Average discount	15.6%
 
 
-Values above are reproduced as displayed on the dashboard with filters set to All.
-Key Business Findings
-- West leads the regions, with $725K in sales and $108K in profit.
-- Central has the weakest regional profit margin among the four displayed regions: $501K in sales and $40K in profit, equivalent to approximately 8% when calculated from the displayed rounded values. This suggests a need to investigate its product mix, discounts, and costs.
-- Sales increased 46.9% year over year, and profit increased 48.4%.
-- Orders increased 50.8% year over year, while average order value decreased 2.6%. This suggests that volume contributed more to growth than basket value.
-What-If Scenario Analysis
-The report uses DAX measures and interactive parameters to test hypothetical changes to pricing, sales quantity, and discount levels.
+Figures are displayed as shown in the dashboard with filters set to All.
+![Superstore Sales Overview](Overview.png)
+
+Key business findings
+1. West leads in sales and profit
+The West region records $725K in sales and $108K in profit, the highest values among the four regions displayed.
+
+Business implication: Explore the product mix and customer patterns behind West's performance to identify practices worth testing elsewhere.
+2. Central needs a profitability review
+Central generates $501K in sales but only $40K in profit. Based on the rounded values displayed, its profit margin is approximately 8%, below West's approximately 14.9%.
+
+Business implication: Investigate discounts, product categories and cost drivers before deciding on corrective action.
+3. Growth is accompanied by a lower order value
+Year-over-year sales increased 46.9%, profit increased 48.4%, and orders increased 50.8%, while average order value decreased 2.6%.
+
+Business implication: Examine whether growth is being driven primarily by more frequent or smaller orders and how this affects commercial strategy.
+Customer analytics
+The customer view supports analysis of customer and segment performance to help identify where revenue and profitability are concentrated.
+![Customer Analysis](Customers.png)
+What-If: testing commercial decisions
+The dashboard includes a DAX-based scenario tool for exploring the combined effect of pricing, quantity and discount assumptions.
 Scenario input	Selected change
 Price	+25%
 Quantity	-5%
 Discount	+2 percentage points
 
 
-Simulated outcome	Dashboard impact
-Sales	+$362.7K (+15.8%)
-Profit	+$463.2K (+161.7%)
-Profit margin	+15.7 percentage points (+126.1% relative change)
-Quantity	-1,894 (-5.0%)
+Simulated outcome	Dashboard result
+Sales impact	+$362.7K (+15.8%)
+Profit impact	+$463.2K (+161.7%)
+Profit margin impact	+15.7 percentage points (+126.1% relative)
 
+![What-If Scenario](What%20if.png)
 
-Interpretation: Under these assumptions, the model indicates a potential increase in sales and profit, even with lower quantity. These are hypothetical model outputs, not realized business results or a validated forecast.
-Modeling Assumptions and Limitations
-- Simulated sales apply price and quantity multipliers and adjust discounts relative to each row's original discount.
-- Simulated profit subtracts historical implied costs scaled by the quantity change. This treats costs as proportional to quantity and does not separately model fixed costs.
-- Customer price sensitivity, demand elasticity, competitor responses, and other real-world effects are not independently estimated.
-- Reported figures are the dashboard's displayed values; some values are rounded.
-Tools and Techniques
-- Power BI: interactive dashboard and KPI reporting
-- Power Query: data preparation
-- DAX: measures, year-over-year analysis, and What-If calculations
-- Data modeling: analytical relationships supporting reporting
-- Business analytics: regional performance, customer analysis, and scenario evaluation
-Business Value
-This project demonstrates how a decision-maker can monitor business performance, locate profitability gaps, and explore pricing scenarios before taking action. It is a portfolio demonstration, not a claim of measured savings or profit achieved for a client.
-Author
-Zahra Oumous — Data Analytics | Power BI | SQL Server | Python
+Interpretation: Under these specific assumptions, the model indicates higher simulated sales and profit despite lower quantity. These are hypothetical model outputs, not realized gains or validated forecasts. The profit calculation assumes historical implied costs change proportionally with quantity; the model does not estimate customer price elasticity or separate fixed and variable costs.
+Analytical approach
+1. Data preparation: Power Query transformations to prepare the sales data for reporting.
+2. Data modeling: Structured model to support analysis by region, segment, category and time.
+3. KPI development: DAX measures for sales, profit, margin, orders, year-over-year comparisons and scenario outputs.
+4. Exploration: Interactive views for sales performance, customers and commercial scenarios.
+5. Business interpretation: Identification of profitability gaps and decision-oriented follow-up questions.
+Recommendations to investigate
+- Review Central's discounting, product mix and cost structure to understand its lower margin.
+- Examine West's strongest-performing segments and products for transferable practices.
+- Monitor average order value alongside order growth, rather than relying on sales growth alone.
+- Use What-If as a sensitivity-testing aid, followed by commercial validation before acting.
+Portfolio scope
+This repository showcases the analysis through screenshots and a video demonstration. The Power BI .pbix file is intentionally not published.
+
+Author: Zahra Oumous
+Focus: Data Analytics · Business Intelligence · Power BI · SQL · Python
