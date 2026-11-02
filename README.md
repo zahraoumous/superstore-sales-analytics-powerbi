@@ -77,19 +77,6 @@ The dashboard supports sensitivity analysis using adjustable price, quantity and
 - **Analysis:** Regional profitability, customer segmentation and sales trends
 - **Decision support:** Interactive scenario modeling and business interpretation
 
-## Project Demo
-
-## Dashboard Demo
-
-
-## 🎥 Dashboard Demo
-
-Click on the dashboard preview below to watch the Power BI walkthrough.
-
-[![Watch Superstore Dashboard Demo](Overview.png)](https://youtu.be/HzS164x9iCE)
-
-**[▶ Watch the full dashboard demonstration on YouTube](https://youtu.be/HzS164x9iCE)**
-
 
 > The Power BI `.pbix` file is intentionally not shared. This repository presents the dashboard, analysis and demonstration only.
 
