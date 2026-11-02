@@ -4,7 +4,11 @@
 
 ## Dashboard Demo
 
-[▶ Watch the Superstore Dashboard Demo](Superstore.mp4) · [Sales overview](Overview.png) · [Customer analysis](Customers.png) · [What-If simulation](What%20if.png)
+Click on the dashboard preview below to watch the Power BI walkthrough.
+
+[![Watch Superstore Dashboard Demo](Overview.png)](https://youtu.be/HzS164x9iCE)
+
+**[▶ Watch the full dashboard demonstration on YouTube](https://youtu.be/HzS164x9iCE)** · [Sales overview](Overview.png) · [Customer analysis](Customers.png) · [What-If simulation](What%20if.png)
 
 ## Business Challenge
 
